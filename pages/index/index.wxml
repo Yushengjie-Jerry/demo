@@ -1,0 +1,25 @@
+<!-- 首页 -->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class="swiper">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+
+
+<view class="msg">
+  <view>
+    <text style="font-size:20px;font-weight:bold;">豆瓣电影</text>
+  </view>
+  <view>
+    <text>源码出品,必属精品</text>
+  </view>
+</view>
+
+<navigator wx:for="{{tablist}}" url="../list/list?url={{item.url}}">
+  <view class="nav ">
+    <text>{{item.text}}</text>
+    <text>></text>
+  </view>
+</navigator>

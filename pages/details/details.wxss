@@ -1,0 +1,18 @@
+/* pages/details/details.wxss */
+.filmde{
+  width:230px;
+  margin: 0 70px;
+  text-align: center;
+}
+.img{
+  width: 230px;
+  height: 400px;
+}
+.actor{
+  width:230px;
+  margin: 20px 70px;
+}
+.introduce{
+  width:230px;
+  margin: 0 70px;
+}

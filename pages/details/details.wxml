@@ -1,0 +1,29 @@
+<!--pages/details/details.wxml-->
+<view class="filmde">
+  <image class="img" src="{{img}}"></image>
+  <view>
+    <text>嗝嗝老师</text>
+  </view>
+</view>
+
+<view class="actor">
+  <view>
+    评分：<text>0</text>
+  </view>
+  <view>
+   导演：<text>西达夫·马贺拉</text>
+  </view>
+  <view>
+    主演:<text>尼古拉斯赵四 刘能</text>
+  </view>
+</view>
+
+<view class="introduce">
+  <view>
+  <text style="font-size:20px;font-weight:bold;">简介:</text>
+  </view>
+  <view>
+  <text>中新网客户端北京9月3日电(任思雨)随着开学季的到来，热闹的暑期电影档告一段落。国家电影资金办提供的数据显示，2019年暑期档(6.1日至8.31日)票房为176.53亿元，打破去年173.81亿元的记录，观影人次为49999万，超越去年同期的49639万，再创暑期档历史票房新高。</text>
+  </view>
+
+</view>

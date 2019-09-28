@@ -1,0 +1,19 @@
+/**index.wxss**/
+.swiper{
+  width:100%;
+}
+.msg{
+  padding: 15px;
+}
+.nav{
+  height:60rpx;
+  line-height: 60rpx;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+  background: #eee;
+}
+.slide-image{
+  width:100%;
+}
